@@ -33,10 +33,6 @@ def convert_currency(params):
     except Exception as e:
         return f"Invalid input or error: {str(e)}. Use format like: 100, USD, INR"
 
-def run_command(command):
-    print("Executing command:", command)
-    return os.system(command=command)
-
 system_prompt = """
     You are a helpful assistant who is specialized in solving user queries.
     You work on start, plan, action, observe mode.
