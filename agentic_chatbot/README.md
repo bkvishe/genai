@@ -7,8 +7,8 @@ This project demonstrates a basic agentic AI system using OpenAI's API and exter
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/genai-agent-tools.git
-cd genai-agent-tools
+git clone https://github.com/bkvishe/genai.git
+cd genai/agentic_chatbot
 ```
 
 2. **Create Virtual Environment (Optional but Recommended)**
@@ -33,7 +33,7 @@ OPENAI_API_KEY=your_openai_api_key
 5. **Run the Agent**
 
 ```bash
-python agentic_chatbot.py
+python app.py
 ```
 
 ## **🤖 Using Other LLMs**
